@@ -22,7 +22,7 @@ export type BreakRule = {
    * Contains the break splitting options as key-value pair.
    * The key represents the number of breaks into which the required time may be split, the value contains the minimum length of a single break (in minutes)
    **/
-  splitting: {
+  splitting: null | {
     /** Only one break */
     "1"?: number;
     /** At least one break */
